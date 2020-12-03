@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
 :root{
-    --primary-color: #FCA5A5;
+    --primary-color:#e2a7a7;
   }
   
   body{
@@ -40,6 +40,10 @@
     border-style: none;
     border-radius: 0.5rem;
     font-weight: bold;
+    cursor: pointer; /*to convert cursor to a pointer */
+}
+button:hover{
+    color:rgb(238, 232, 232);
 }
 .div-heading{
     margin: 1rem;
@@ -60,24 +64,19 @@
     margin-top: 1rem;
     text-align: center;
     border-top-right-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 .footer-div{
 font-size: large;
 font-weight: bold;
 }
 
-.footer .non-bullets{
-  list-style: none;
-}
-.footer .link{
-    text-decoration: none;
-    font-size: large;
-    padding: 0.5rem 1rem;
-}
-.footer .list-item-inline{
-    display: inline;
-}
-.non-bullets{
-    margin: 1rem;
-    padding: 1rem;
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 200px;
+    margin: auto;
 }
