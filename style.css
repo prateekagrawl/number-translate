@@ -24,14 +24,14 @@
   .container{
     text-align: center;
 }
-.txt{
+#txt{
     margin: 1rem;
     padding: 1rem;
     width: 50% ;
     height: 10vh;
     max-width: 300px;
 }
-.btn{
+#btn{
     display: block;
     /* max-width: 120px; */
     padding: 0.8rem 1.5rem;
@@ -46,7 +46,7 @@
     font-weight: bold;
 }
 
-.div-box{
+#div-box{
     width: 50%;
     height: 20vh;
     border: 1px solid black;
