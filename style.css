@@ -56,6 +56,8 @@ button:hover{
     border: 1px solid black;
     display: inline-block;
     max-width: 300px;
+    background-color: rgb(224 213 213);
+    opacity: 0.7;
 }
 
 .footer{
@@ -67,6 +69,8 @@ button:hover{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    position: relative; /*to make footer go to the bottom*/
+    bottom: 0;
 }
 .footer-div{
 font-size: large;
